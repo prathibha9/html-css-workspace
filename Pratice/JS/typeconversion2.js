@@ -1,8 +1,91 @@
 "Use strict"
-var num=12;
+var num=0;
 console.log(num);
 console.log(typeof num);
 var str=String(num);
 // console.log(String(num));
 console.log(str);
 console.log(typeof str);
+var bool=Boolean(num);
+console.log(bool);
+console.log(typeof bool);
+//conversion of string to other possible ways
+var str1="100";
+console.log(str1);
+console.log(typeof str1);
+var str2num=Number(str1);
+console.log(str2num);
+console.log(typeof str2num);
+var str2bool=Boolean(str1);
+console.log(str2bool);
+console.log(typeof str2bool);
+
+var str2="sometext";
+console.log(str2);
+console.log(typeof str2);
+var str2num1=Number(str2);
+console.log(str2num1);
+console.log(typeof str2num1);
+var str2bool1 =Boolean(str2);
+console.log(str2bool1);
+console.log(typeof str2bool1);
+//console.clear();
+
+var str3="";
+console.log(str3);
+console.log(typeof str3);
+var str3bool =Boolean(str3);
+console.log(str3bool);
+console.log(typeof str3bool);
+var str3Num =Number(str3);
+console.log(str3Num);
+console.log(typeof str3Num);
+console.clear();
+
+var bool=true;
+console.log(bool);
+console.log(typeof bool);
+var bool2str =String(bool);
+console.log(bool2str);
+console.log(typeof bool2str);
+var bool2num=Number(bool);
+console.log(bool2num);
+console.log(typeof bool2num);
+
+var bool2=false;
+console.log(bool2);
+console.log(typeof bool2);
+var bool3str =String(bool2);
+console.log(bool3str);
+console.log(typeof bool3str);
+var bool3num=Number(bool2);
+console.log(bool3num);
+console.log(typeof bool3num);
+console.clear();
+
+var $;
+console.log($);
+console.log(typeof $);
+var $2str=String($);
+console.log($2str);
+console.log(typeof $2str);
+var $2num=Number($);
+console.log($2num);
+console.log(typeof $2num);
+var $2bool=Boolean($);
+console.log($2bool);
+console.log(typeof $2bool);
+console.clear();
+
+var _=null;
+console.log(_);
+console.log(typeof _);
+var _2str=String(_);
+console.log(_2str);
+console.log(typeof _2str);
+var _2num=Number(_);
+console.log(_2num);
+console.log(typeof _2num);
+var _2bool=Boolean(_);
+console.log(_2bool);
+console.log(typeof _2bool);
